@@ -51,7 +51,7 @@ npm install
 
 Create a copy of .env file:
 
-cp .env.example .env
+    cp .env.example .env
 
 Generate application key:
 php artisan key:generate
@@ -61,21 +61,24 @@ Update your .env file with your database information.
 
 env
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_user
+    DB_PASSWORD=your_database_password
 
 Run database migrations:
-php artisan migrate
+    
+    php artisan migrate
 
 Build the frontend assets:
-npm run dev
+
+    npm run dev
 
 Serve the application:
-php artisan serve
+
+    php artisan serve
 
 Configuration
 Backend Configuration
