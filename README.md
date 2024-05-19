@@ -50,6 +50,7 @@ Install frontend dependencies:
 npm install
 
 Create a copy of .env file:
+
 cp .env.example .env
 
 Generate application key:
